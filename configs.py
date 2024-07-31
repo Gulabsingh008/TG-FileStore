@@ -5,8 +5,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "27002519"))
 	API_HASH = os.environ.get("API_HASH" ,"1033ee721101d78366b4ac46aadf3930")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN" , "")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "@Netflix_file_storebot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN" , "7389324956:AAH8j2rQAhad7CavnqBAsmgGGeowi3drtYc")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Netflix_file_storebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002213457968"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
