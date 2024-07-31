@@ -3,16 +3,16 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
+	API_ID = int(os.environ.get("API_ID", "27002519"))
+	API_HASH = os.environ.get("API_HASH" ,"1033ee721101d78366b4ac46aadf3930")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN" , "")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "@Netflix_file_storebot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002213457968"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6174868004"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002233212878")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
